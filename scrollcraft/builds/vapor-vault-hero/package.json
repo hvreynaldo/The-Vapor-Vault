@@ -1,0 +1,8 @@
+{
+  "name": "vapor-vault-hero-preview",
+  "private": true,
+  "description": "Local verification dependencies for the Vapor Vault scroll hero.",
+  "devDependencies": {
+    "playwright-core": "^1.57.0"
+  }
+}

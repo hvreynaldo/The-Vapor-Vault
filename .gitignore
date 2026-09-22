@@ -1,0 +1,5 @@
+.playwright-cli/
+scrollcraft/builds/vapor-vault-hero/.playwright-cli/
+scrollcraft/builds/vapor-vault-hero/lab/
+scrollcraft/builds/vapor-vault-hero/node_modules/
+scrollcraft/builds/vapor-vault-hero/assets/hero/vault-portal-mobile.mp4

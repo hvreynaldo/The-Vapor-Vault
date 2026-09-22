@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070a0e">
+  <meta name="description" content="The Vapor Vault is a new adult-only smoke-shop experience in Beaumont, Texas.">
+  <title>The Vapor Vault | Beaumont, Texas</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23070a0e'/><circle cx='16' cy='16' r='8' fill='none' stroke='%2335c7ff' stroke-width='2'/></svg>">
+  <link rel="stylesheet" href="scrollcraft.css">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <div id="age-gate" class="age-gate" hidden role="dialog" aria-modal="true" aria-labelledby="age-title">
+    <div class="age-gate__panel">
+      <span class="age-gate__eyebrow">The Vapor Vault</span>
+      <h1 id="age-title">Adults only.</h1>
+      <p>You must be 21 or older to enter this site.</p>
+      <button id="age-confirm" class="age-gate__confirm" type="button">I am 21 or older</button>
+      <p class="age-gate__fine">By continuing, you confirm you meet the legal age requirement in your location.</p>
+    </div>
+  </div>
+
+  <span data-sc-progress aria-hidden="true"></span>
+  <div class="sc-grain" aria-hidden="true"></div>
+
+  <header class="site-bar">
+    <a class="wordmark" href="#top" aria-label="The Vapor Vault home">
+      <span class="wordmark__orbit" aria-hidden="true"></span>
+      <span>The Vapor Vault</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#inside">Inside</a>
+      <a href="#selection">Selection</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="nav-action" href="https://www.google.com/maps/search/?api=1&amp;query=6080%20Muela%20Creek%20Dr%20Unit%201%2C%20Beaumont%2C%20TX%2077706" target="_blank" rel="noreferrer">Directions</a>
+  </header>
+
+  <main id="top">
+    <section class="vault-hero" data-sc-act="scrub" data-sc-span="2.7" data-sc-dwell="0.36" data-sc-drift="#070a0e">
+      <div class="vault-hero__stage" data-sc-stage>
+        <img class="sc-stage__poster" src="assets/hero/vault-portal-poster.webp" alt="">
+        <video data-sc-scrub data-sc-src="assets/hero/vault-portal-desktop.mp4" data-sc-src-mobile="assets/hero/vault-portal-mobile-crop.mp4" muted playsinline preload="metadata" aria-label="A cinematic transition from The Vapor Vault world to its real Beaumont storefront."></video>
+        <div class="vault-hero__shade" aria-hidden="true"></div>
+        <div class="vault-hero__geometry" aria-hidden="true">
+          <span class="vault-hero__arc vault-hero__arc--one"></span>
+          <span class="vault-hero__arc vault-hero__arc--two"></span>
+        </div>
+        <div class="sc-copy sc-copy--lead vault-hero__copy" data-sc-cue="0 0.78 0">
+          <p class="vault-hero__eyebrow">Beaumont, Texas <span aria-hidden="true">/</span> 21+</p>
+          <h1 class="sc-display sc-display--xl" data-sc-kinetic="lines">Enter The Vapor Vault.</h1>
+          <p class="vault-hero__lede">A new smoke-shop experience, built around the real Beaumont storefront.</p>
+          <a class="direction-cta" href="https://www.google.com/maps/search/?api=1&amp;query=6080%20Muela%20Creek%20Dr%20Unit%201%2C%20Beaumont%2C%20TX%2077706" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="vault-dial" aria-hidden="true">
+          <svg viewBox="0 0 100 100" focusable="false">
+            <circle class="vault-dial__track" cx="50" cy="50" r="43"></circle>
+            <circle class="vault-dial__ring" cx="50" cy="50" r="43"></circle>
+          </svg>
+          <span class="vault-dial__notch"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="inside" class="inside-vault sc-section" data-sc-act="flow" data-sc-drift="#0b1017" aria-labelledby="inside-title">
+      <div class="inside-vault__intro" data-sc-in>
+        <h2 id="inside-title">Built for the in-store visit.</h2>
+        <p>The first experience is the room itself: bright cases, a clean counter, and space to ask questions before you decide.</p>
+      </div>
+      <div class="inside-vault__media" data-sc-in>
+        <figure class="inside-vault__frame inside-vault__frame--wide">
+          <img src="assets/interior/interior-01.png" width="1280" height="577" alt="The Vapor Vault interior with illuminated display cases and a bright hexagonal ceiling.">
+        </figure>
+        <figure class="inside-vault__frame inside-vault__frame--inset">
+          <img src="assets/interior/interior-02.png" width="1280" height="577" alt="A second view of The Vapor Vault interior and its retail counter area.">
+        </figure>
+      </div>
+    </section>
+
+    <section id="selection" class="selection sc-section" data-sc-act="flow" data-sc-drift="#0d141c" aria-labelledby="selection-title">
+      <div class="selection__title" data-sc-in>
+        <h2 id="selection-title">A focused opening selection.</h2>
+        <p>Product categories and availability are confirmed in store, not promised online.</p>
+      </div>
+      <div class="selection__principles" data-sc-stagger="70">
+        <article>
+          <h3>See it in person.</h3>
+          <p>Inspect the details, ask a question, and choose with the product in front of you.</p>
+        </article>
+        <article>
+          <h3>Keep it considered.</h3>
+          <p>The opening range is deliberately smaller, so the store can stay clear and easy to explore.</p>
+        </article>
+        <article>
+          <h3>Visit for the current shelf.</h3>
+          <p>For current categories and product details, speak with the store team directly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="volt-feature" data-sc-act="flow" data-sc-drift="#081019" aria-labelledby="volt-title">
+      <div class="volt-feature__copy" data-sc-in>
+        <h2 id="volt-title">Meet Volt.</h2>
+        <p>Volt is the calm presence at the center of The Vapor Vault. He is here to guide the atmosphere, not the product choice.</p>
+      </div>
+      <div class="volt-feature__art" data-sc-in>
+        <img src="assets/volt/volt-guardian.png" width="1728" height="2304" alt="Volt, the black panther guardian of The Vapor Vault, in graphite techwear with cyan details.">
+      </div>
+    </section>
+
+    <section class="new-arrival sc-section" data-sc-act="flow" data-sc-drift="#0b1017" aria-labelledby="new-title">
+      <div class="new-arrival__statement" data-sc-in>
+        <h2 id="new-title">New in Beaumont. Ready to explore.</h2>
+        <p>The Vapor Vault is building its opening experience around the place, the people behind the counter, and a clear reason to stop in.</p>
+      </div>
+    </section>
+
+    <section id="visit" class="arrival" data-sc-act="flow" data-sc-drift="#0b1017" aria-labelledby="visit-title">
+      <figure class="arrival__media" aria-hidden="true">
+        <img src="assets/interior/storefront.png" width="1280" height="577" alt="">
+      </figure>
+      <div class="arrival__inner" data-sc-in>
+        <p class="arrival__eyebrow">Visit the vault</p>
+        <h2 class="arrival__title" id="visit-title">Find the vault in Beaumont.</h2>
+        <div class="arrival__details">
+          <address>6080 Muela Creek Dr<br>Unit 1<br>Beaumont, TX 77706</address>
+          <a class="arrival__link" href="tel:+14092255827">Call the store: (409) 225-5827</a>
+          <a class="arrival__directions" href="https://www.google.com/maps/search/?api=1&amp;query=6080%20Muela%20Creek%20Dr%20Unit%201%2C%20Beaumont%2C%20TX%2077706" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <span>The Vapor Vault</span>
+      <span>Adults 21+ only</span>
+    </div>
+    <p>In-store information only. Availability is confirmed at the store. No online sales through this site.</p>
+  </footer>
+
+  <script src="scrollcraft.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
